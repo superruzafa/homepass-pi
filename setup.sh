@@ -12,3 +12,10 @@ cat dhcpd.conf >> /etc/dhcp/dhcpd.conf
 
 service isc-dhcp-server start
 
+mkdir -p /etc/homepass-pi /var/homepass-pi
+cp macaddr-list /etc/homepass-pi
+cp nz /usr/local/bin
+
+
+
+
